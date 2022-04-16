@@ -1,0 +1,20 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/wg83/Desktop/ECE\ 550/processor\ 3_1111_2_expolreClock {C:/Users/wg83/Desktop/ECE 550/processor 3_1111_2_expolreClock/skeleton.v}
+vlog -vlog01compat -work work +incdir+C:/Users/wg83/Desktop/ECE\ 550/processor\ 3_1111_2_expolreClock {C:/Users/wg83/Desktop/ECE 550/processor 3_1111_2_expolreClock/processor.v}
+vlog -vlog01compat -work work +incdir+C:/Users/wg83/Desktop/ECE\ 550/processor\ 3_1111_2_expolreClock {C:/Users/wg83/Desktop/ECE 550/processor 3_1111_2_expolreClock/regfile.v}
+vlog -vlog01compat -work work +incdir+C:/Users/wg83/Desktop/ECE\ 550/processor\ 3_1111_2_expolreClock {C:/Users/wg83/Desktop/ECE 550/processor 3_1111_2_expolreClock/alu.v}
+vlog -vlog01compat -work work +incdir+C:/Users/wg83/Desktop/ECE\ 550/processor\ 3_1111_2_expolreClock {C:/Users/wg83/Desktop/ECE 550/processor 3_1111_2_expolreClock/dmem.v}
+vlog -vlog01compat -work work +incdir+C:/Users/wg83/Desktop/ECE\ 550/processor\ 3_1111_2_expolreClock {C:/Users/wg83/Desktop/ECE 550/processor 3_1111_2_expolreClock/imem.v}
+vlog -vlog01compat -work work +incdir+C:/Users/wg83/Desktop/ECE\ 550/processor\ 3_1111_2_expolreClock {C:/Users/wg83/Desktop/ECE 550/processor 3_1111_2_expolreClock/frequency_divider_by2.v}
+vlog -vlog01compat -work work +incdir+C:/Users/wg83/Desktop/ECE\ 550/processor\ 3_1111_2_expolreClock {C:/Users/wg83/Desktop/ECE 550/processor 3_1111_2_expolreClock/pc.v}
+vlog -vlog01compat -work work +incdir+C:/Users/wg83/Desktop/ECE\ 550/processor\ 3_1111_2_expolreClock {C:/Users/wg83/Desktop/ECE 550/processor 3_1111_2_expolreClock/unsignedExtension.v}
+vlog -vlog01compat -work work +incdir+C:/Users/wg83/Desktop/ECE\ 550/processor\ 3_1111_2_expolreClock {C:/Users/wg83/Desktop/ECE 550/processor 3_1111_2_expolreClock/signExtension.v}
+vlog -vlog01compat -work work +incdir+C:/Users/wg83/Desktop/ECE\ 550/processor\ 3_1111_2_expolreClock {C:/Users/wg83/Desktop/ECE 550/processor 3_1111_2_expolreClock/getInsnType.v}
+vlog -vlog01compat -work work +incdir+C:/Users/wg83/Desktop/ECE\ 550/processor\ 3_1111_2_expolreClock {C:/Users/wg83/Desktop/ECE 550/processor 3_1111_2_expolreClock/adder32.v}
+

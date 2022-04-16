@@ -1,0 +1,28 @@
+transcript on
+if {[file exists rtl_work]} {
+	vdel -lib rtl_work -all
+}
+vlib rtl_work
+vmap work rtl_work
+
+vlog -vlog01compat -work work +incdir+C:/Users/wg83/Desktop/ECE\ 550/processor\ 3_1111_4_extensive_Testing_someother {C:/Users/wg83/Desktop/ECE 550/processor 3_1111_4_extensive_Testing_someother/skeleton.v}
+vlog -vlog01compat -work work +incdir+C:/Users/wg83/Desktop/ECE\ 550/processor\ 3_1111_4_extensive_Testing_someother {C:/Users/wg83/Desktop/ECE 550/processor 3_1111_4_extensive_Testing_someother/processor.v}
+vlog -vlog01compat -work work +incdir+C:/Users/wg83/Desktop/ECE\ 550/processor\ 3_1111_4_extensive_Testing_someother {C:/Users/wg83/Desktop/ECE 550/processor 3_1111_4_extensive_Testing_someother/regfile.v}
+vlog -vlog01compat -work work +incdir+C:/Users/wg83/Desktop/ECE\ 550/processor\ 3_1111_4_extensive_Testing_someother {C:/Users/wg83/Desktop/ECE 550/processor 3_1111_4_extensive_Testing_someother/alu.v}
+vlog -vlog01compat -work work +incdir+C:/Users/wg83/Desktop/ECE\ 550/processor\ 3_1111_4_extensive_Testing_someother {C:/Users/wg83/Desktop/ECE 550/processor 3_1111_4_extensive_Testing_someother/dmem.v}
+vlog -vlog01compat -work work +incdir+C:/Users/wg83/Desktop/ECE\ 550/processor\ 3_1111_4_extensive_Testing_someother {C:/Users/wg83/Desktop/ECE 550/processor 3_1111_4_extensive_Testing_someother/imem.v}
+vlog -vlog01compat -work work +incdir+C:/Users/wg83/Desktop/ECE\ 550/processor\ 3_1111_4_extensive_Testing_someother {C:/Users/wg83/Desktop/ECE 550/processor 3_1111_4_extensive_Testing_someother/frequency_divider_by2.v}
+vlog -vlog01compat -work work +incdir+C:/Users/wg83/Desktop/ECE\ 550/processor\ 3_1111_4_extensive_Testing_someother {C:/Users/wg83/Desktop/ECE 550/processor 3_1111_4_extensive_Testing_someother/pc.v}
+vlog -vlog01compat -work work +incdir+C:/Users/wg83/Desktop/ECE\ 550/processor\ 3_1111_4_extensive_Testing_someother {C:/Users/wg83/Desktop/ECE 550/processor 3_1111_4_extensive_Testing_someother/unsignedExtension.v}
+vlog -vlog01compat -work work +incdir+C:/Users/wg83/Desktop/ECE\ 550/processor\ 3_1111_4_extensive_Testing_someother {C:/Users/wg83/Desktop/ECE 550/processor 3_1111_4_extensive_Testing_someother/signExtension.v}
+vlog -vlog01compat -work work +incdir+C:/Users/wg83/Desktop/ECE\ 550/processor\ 3_1111_4_extensive_Testing_someother {C:/Users/wg83/Desktop/ECE 550/processor 3_1111_4_extensive_Testing_someother/getInsnType.v}
+vlog -vlog01compat -work work +incdir+C:/Users/wg83/Desktop/ECE\ 550/processor\ 3_1111_4_extensive_Testing_someother {C:/Users/wg83/Desktop/ECE 550/processor 3_1111_4_extensive_Testing_someother/adder32.v}
+
+vlog -vlog01compat -work work +incdir+C:/Users/wg83/Desktop/ECE\ 550/processor\ 3_1111_4_extensive_Testing_someother {C:/Users/wg83/Desktop/ECE 550/processor 3_1111_4_extensive_Testing_someother/testProcessor_tb.v}
+
+vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  testProcessor_tb
+
+add wave *
+view structure
+view signals
+run -all

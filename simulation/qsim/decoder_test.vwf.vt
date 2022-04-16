@@ -1,0 +1,78 @@
+// Copyright (C) 1991-2016 Altera Corporation. All rights reserved.
+// Your use of Altera Corporation's design tools, logic functions 
+// and other software and tools, and its AMPP partner logic 
+// functions, and any output files from any of the foregoing 
+// (including device programming or simulation files), and any 
+// associated documentation or information are expressly subject 
+// to the terms and conditions of the Altera Program License 
+// Subscription Agreement, the Altera Quartus Prime License Agreement,
+// the Altera MegaCore Function License Agreement, or other 
+// applicable license agreement, including, without limitation, 
+// that your use is for the sole purpose of programming logic 
+// devices manufactured by Altera and sold by Altera or its 
+// authorized distributors.  Please refer to the applicable 
+// agreement for further details.
+
+// *****************************************************************************
+// This file contains a Verilog test bench with test vectors .The test vectors  
+// are exported from a vector file in the Quartus Waveform Editor and apply to  
+// the top level entity of the current Quartus project .The user can use this   
+// testbench to simulate his design using a third-party simulation tool .       
+// *****************************************************************************
+// Generated on "11/07/2020 16:01:35"
+                                                                                
+// Verilog Test Bench (with test vectors) for design :                          skeleton_test
+// 
+// Simulation tool : 3rd Party
+// 
+
+`timescale 1 ps/ 1 ps
+module skeleton_test_vlg_vec_tst();
+// constants                                           
+// general purpose registers
+reg clock;
+reg reset;
+reg [4:0] t_ctrl_readRegA;
+reg [4:0] t_ctrl_readRegB;
+reg t_ctrl_writeEnable;
+reg [4:0] t_ctrl_writeReg;
+reg [31:0] t_data_writeReg;
+reg test;
+// wires                                               
+wire o_ctrl_writeEnable;
+wire [4:0] o_ctrl_writeReg;
+wire [31:0] o_data_writeReg;
+wire [31:0] t_data_readRegA;
+wire [31:0] t_data_readRegB;
+wire [31:0] t_test2_out;
+wire [4:0] t_test3_out;
+wire [31:0] t_test4_out;
+wire t_test_out;
+
+// assign statements (if any)                          
+skeleton_test i1 (
+// port map - connection between master ports and signals/registers   
+	.clock(clock),
+	.o_ctrl_writeEnable(o_ctrl_writeEnable),
+	.o_ctrl_writeReg(o_ctrl_writeReg),
+	.o_data_writeReg(o_data_writeReg),
+	.reset(reset),
+	.t_ctrl_readRegA(t_ctrl_readRegA),
+	.t_ctrl_readRegB(t_ctrl_readRegB),
+	.t_ctrl_writeEnable(t_ctrl_writeEnable),
+	.t_ctrl_writeReg(t_ctrl_writeReg),
+	.t_data_readRegA(t_data_readRegA),
+	.t_data_readRegB(t_data_readRegB),
+	.t_data_writeReg(t_data_writeReg),
+	.t_test2_out(t_test2_out),
+	.t_test3_out(t_test3_out),
+	.t_test4_out(t_test4_out),
+	.t_test_out(t_test_out),
+	.test(test)
+);
+initial 
+begin 
+#1000000 $finish;
+end 
+endmodule
+

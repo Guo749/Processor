@@ -1,0 +1,419 @@
+m255
+K4
+z2
+13
+!s112 1.1
+!i10d 8192
+!i10e 25
+!i10f 100
+cModel Technology
+Z0 dC:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/simulation/modelsim
+v_16BitAdder
+Z1 !s110 1605186785
+!i10b 1
+!s100 GeHb11VdeInde73NPWP>`3
+IR<47kWz0?1inMmkAQ<9R_1
+Z2 VDg1SIo80bB@j0V0VzS_@n1
+R0
+Z3 w1604822250
+Z4 8C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/adder32.v
+Z5 FC:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/adder32.v
+L0 29
+Z6 OV;L;10.4d;61
+r1
+!s85 0
+31
+Z7 !s108 1605186785.000000
+Z8 !s107 C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/adder32.v|
+Z9 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases|C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/adder32.v|
+!i113 1
+Z10 o-vlog01compat -work work
+Z11 !s92 -vlog01compat -work work {+incdir+C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases}
+n@_16@bit@adder
+vadder32
+R1
+!i10b 1
+!s100 X5?WTaUCn6]jPUG<5@`B;2
+I;XW6fWJ^HBA_]S1;JQVMS0
+R2
+R0
+R3
+R4
+R5
+L0 3
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+valu
+Z12 !s110 1605186784
+!i10b 1
+!s100 CM2POFHhm`MRQRPIcjMQG0
+Ik:gWnXJQkEHEeQ=2EKf4O3
+R2
+R0
+w1605062845
+8C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/alu.v
+FC:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/alu.v
+L0 1
+R6
+r1
+!s85 0
+31
+Z13 !s108 1605186784.000000
+!s107 C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/alu.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases|C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/alu.v|
+!i113 1
+R10
+R11
+vdmem
+R12
+!i10b 1
+!s100 nYU^0X;IVoGnO@7F^AT5A0
+IdOW?Y]aabDe0^S2od^SdZ3
+R2
+R0
+Z14 w1604820165
+8C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/dmem.v
+FC:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/dmem.v
+Z15 L0 40
+R6
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/dmem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases|C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/dmem.v|
+!i113 1
+R10
+R11
+veightBitAdder
+R1
+!i10b 1
+!s100 Y1XhjRlziV_M9QW;F4[8c1
+I1LR?i2ESEie?=Ci4aHZZ_1
+R2
+R0
+R3
+R4
+R5
+L0 54
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+neight@bit@adder
+vfourBitAdder
+R1
+!i10b 1
+!s100 nBk`kVbQ5U3Mo:kGc0nYQ2
+IZoa:9fUF3e[mz<<efW:<k3
+R2
+R0
+R3
+R4
+R5
+L0 79
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+nfour@bit@adder
+vfrequency_divider_by2
+R12
+!i10b 1
+!s100 W4PMF[0Nke=af=X^[XL:A3
+IaaNi^=MeU4A?8anN?Y8XL3
+R2
+R0
+w1605184926
+8C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/frequency_divider_by2.v
+FC:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/frequency_divider_by2.v
+L0 1
+R6
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/frequency_divider_by2.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases|C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/frequency_divider_by2.v|
+!i113 1
+R10
+R11
+vgetInsnType
+R1
+!i10b 1
+!s100 o^SA^nA3_FkY>0<:OV`NP3
+IhW:^f^FCePnj8m^2`7jD;3
+R2
+R0
+w1604822225
+8C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/getInsnType.v
+FC:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/getInsnType.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/getInsnType.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases|C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/getInsnType.v|
+!i113 1
+R10
+R11
+nget@insn@type
+vimem
+R12
+!i10b 1
+!s100 ;FL_C9G=8M5TX]l@M97DH2
+IKhTX0FL8K_a^<TaNAAo??1
+R2
+R0
+R14
+8C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/imem.v
+FC:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/imem.v
+R15
+R6
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/imem.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases|C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/imem.v|
+!i113 1
+R10
+R11
+vmyDff
+R1
+!i10b 1
+!s100 3AZJ7k[9g]G@Y<KYeZ2ab2
+IPn1BPg[4`YH`>GBHWVn^O1
+R2
+R0
+Z16 w1604821949
+Z17 8C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/pc.v
+Z18 FC:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/pc.v
+L0 46
+R6
+r1
+!s85 0
+31
+R7
+Z19 !s107 C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/pc.v|
+Z20 !s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases|C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/pc.v|
+!i113 1
+R10
+R11
+nmy@dff
+voneBitAdder
+R1
+!i10b 1
+!s100 :JnW0aYboNHU784m48h571
+IAcH]dRNF<[oHQhB2WIZ7H3
+R2
+R0
+R3
+R4
+R5
+L0 132
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+none@bit@adder
+vpc
+R1
+!i10b 1
+!s100 UeAmFEBIKN>m_DNlU7JBN2
+ITHG:57g_h``f9IYeUOZ0j2
+R2
+R0
+R16
+R17
+R18
+L0 5
+R6
+r1
+!s85 0
+31
+R7
+R19
+R20
+!i113 1
+R10
+R11
+vprocessor
+R12
+!i10b 1
+!s100 :Iimb?GQUa]jU?6Raiz`C2
+IFPZP<`2W90Ge?mD9CFPa[1
+R2
+R0
+w1605186376
+8C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/processor.v
+FC:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/processor.v
+L0 9
+R6
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/processor.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases|C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/processor.v|
+!i113 1
+R10
+R11
+vregfile
+R12
+!i10b 1
+!s100 >EY2WA2fA[Tj>b>>KC1E>2
+ITXS5:J7;65<TPlZV]GDKg1
+R2
+R0
+w1604820171
+8C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/regfile.v
+FC:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/regfile.v
+L0 1
+R6
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/regfile.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases|C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/regfile.v|
+!i113 1
+R10
+R11
+vsignExtension
+R1
+!i10b 1
+!s100 ]l65;55Yo@WR`PO`JzzfP1
+I0mD8`Di6:L@Z?;Hzz]g8V2
+R2
+R0
+w1604822201
+8C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/signExtension.v
+FC:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/signExtension.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/signExtension.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases|C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/signExtension.v|
+!i113 1
+R10
+R11
+nsign@extension
+vskeleton
+R12
+!i10b 1
+!s100 oY?V<`4fEh>Z?l<jRhH4J1
+IKYg``<6ElXf_]LX_L5Th01
+R2
+R0
+w1605185627
+8C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/skeleton.v
+FC:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/skeleton.v
+L0 12
+R6
+r1
+!s85 0
+31
+R13
+!s107 C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/skeleton.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases|C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/skeleton.v|
+!i113 1
+R10
+R11
+vtestProcessor_tb
+R1
+!i10b 1
+!s100 Ha=@MBgTUTbKI0EfKZDh]1
+I9;l`iD3nA08ZI:V[6[TV21
+R2
+R0
+w1605186770
+8C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/testProcessor_tb.v
+FC:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/testProcessor_tb.v
+L0 2
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/testProcessor_tb.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases|C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/testProcessor_tb.v|
+!i113 1
+R10
+R11
+ntest@processor_tb
+vtwoBitAdder
+R1
+!i10b 1
+!s100 B5dTH<;F`6a3Y@>P?JC<@3
+IS4Z;4_=K738LhQLVQ>gWX3
+R2
+R0
+R3
+R4
+R5
+L0 108
+R6
+r1
+!s85 0
+31
+R7
+R8
+R9
+!i113 1
+R10
+R11
+ntwo@bit@adder
+vunsignedExtension
+R1
+!i10b 1
+!s100 :oILNl]Ye5dZ4_H^khjJW0
+ITYQ:;Ta1UNORT^BmSFTC^1
+R2
+R0
+w1604822163
+8C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/unsignedExtension.v
+FC:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/unsignedExtension.v
+L0 1
+R6
+r1
+!s85 0
+31
+R7
+!s107 C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/unsignedExtension.v|
+!s90 -reportprogress|300|-vlog01compat|-work|work|+incdir+C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases|C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/unsignedExtension.v|
+!i113 1
+R10
+R11
+nunsigned@extension

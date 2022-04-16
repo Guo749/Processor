@@ -1,0 +1,6 @@
+In the pervious verison --test many test cases, I have passed the sw and lw
+
+
+now I will do more tests for Jump
+
+todo Instruction

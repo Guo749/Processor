@@ -1,0 +1,208 @@
+# Reading C:/altera_lite/16.0/modelsim_ase/tcl/vsim/pref.tcl
+# do skeleton_run_msim_rtl_verilog.do
+# if {[file exists rtl_work]} {
+# 	vdel -lib rtl_work -all
+# }
+# vlib rtl_work
+# vmap work rtl_work
+# Model Technology ModelSim ALTERA vmap 10.4d Lib Mapping Utility 2015.12 Dec 30 2015
+# vmap work rtl_work 
+# Copying C:/altera_lite/16.0/modelsim_ase/win32aloem/../modelsim.ini to modelsim.ini
+# Modifying modelsim.ini
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/wg83/Desktop/ECE\ 550/processor\ 3_1112_testManycases {C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/skeleton.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 21:13:04 on Nov 12,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases" C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/skeleton.v 
+# -- Compiling module skeleton
+# 
+# Top level modules:
+# 	skeleton
+# End time: 21:13:04 on Nov 12,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/wg83/Desktop/ECE\ 550/processor\ 3_1112_testManycases {C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/processor.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 21:13:04 on Nov 12,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases" C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/processor.v 
+# -- Compiling module processor
+# 
+# Top level modules:
+# 	processor
+# End time: 21:13:04 on Nov 12,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/wg83/Desktop/ECE\ 550/processor\ 3_1112_testManycases {C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/regfile.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 21:13:04 on Nov 12,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases" C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/regfile.v 
+# -- Compiling module regfile
+# 
+# Top level modules:
+# 	regfile
+# End time: 21:13:04 on Nov 12,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/wg83/Desktop/ECE\ 550/processor\ 3_1112_testManycases {C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/alu.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 21:13:04 on Nov 12,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases" C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/alu.v 
+# -- Compiling module alu
+# 
+# Top level modules:
+# 	alu
+# End time: 21:13:04 on Nov 12,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/wg83/Desktop/ECE\ 550/processor\ 3_1112_testManycases {C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/dmem.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 21:13:04 on Nov 12,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases" C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/dmem.v 
+# -- Compiling module dmem
+# 
+# Top level modules:
+# 	dmem
+# End time: 21:13:04 on Nov 12,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/wg83/Desktop/ECE\ 550/processor\ 3_1112_testManycases {C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/imem.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 21:13:04 on Nov 12,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases" C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/imem.v 
+# -- Compiling module imem
+# 
+# Top level modules:
+# 	imem
+# End time: 21:13:04 on Nov 12,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/wg83/Desktop/ECE\ 550/processor\ 3_1112_testManycases {C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/frequency_divider_by2.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 21:13:04 on Nov 12,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases" C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/frequency_divider_by2.v 
+# -- Compiling module frequency_divider_by2
+# 
+# Top level modules:
+# 	frequency_divider_by2
+# End time: 21:13:04 on Nov 12,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/wg83/Desktop/ECE\ 550/processor\ 3_1112_testManycases {C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/pc.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 21:13:05 on Nov 12,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases" C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/pc.v 
+# -- Compiling module pc
+# -- Compiling module myDff
+# 
+# Top level modules:
+# 	pc
+# End time: 21:13:05 on Nov 12,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/wg83/Desktop/ECE\ 550/processor\ 3_1112_testManycases {C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/unsignedExtension.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 21:13:05 on Nov 12,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases" C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/unsignedExtension.v 
+# -- Compiling module unsignedExtension
+# 
+# Top level modules:
+# 	unsignedExtension
+# End time: 21:13:05 on Nov 12,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/wg83/Desktop/ECE\ 550/processor\ 3_1112_testManycases {C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/signExtension.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 21:13:05 on Nov 12,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases" C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/signExtension.v 
+# -- Compiling module signExtension
+# 
+# Top level modules:
+# 	signExtension
+# End time: 21:13:05 on Nov 12,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/wg83/Desktop/ECE\ 550/processor\ 3_1112_testManycases {C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/getInsnType.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 21:13:05 on Nov 12,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases" C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/getInsnType.v 
+# -- Compiling module getInsnType
+# 
+# Top level modules:
+# 	getInsnType
+# End time: 21:13:05 on Nov 12,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# vlog -vlog01compat -work work +incdir+C:/Users/wg83/Desktop/ECE\ 550/processor\ 3_1112_testManycases {C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/adder32.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 21:13:05 on Nov 12,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases" C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/adder32.v 
+# -- Compiling module adder32
+# -- Compiling module _16BitAdder
+# -- Compiling module eightBitAdder
+# -- Compiling module fourBitAdder
+# -- Compiling module twoBitAdder
+# -- Compiling module oneBitAdder
+# 
+# Top level modules:
+# 	adder32
+# End time: 21:13:05 on Nov 12,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vlog -vlog01compat -work work +incdir+C:/Users/wg83/Desktop/ECE\ 550/processor\ 3_1112_testManycases {C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/testProcessor_tb.v}
+# Model Technology ModelSim ALTERA vlog 10.4d Compiler 2015.12 Dec 30 2015
+# Start time: 21:13:05 on Nov 12,2020
+# vlog -reportprogress 300 -vlog01compat -work work "+incdir+C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases" C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/testProcessor_tb.v 
+# -- Compiling module testProcessor_tb
+# 
+# Top level modules:
+# 	testProcessor_tb
+# End time: 21:13:05 on Nov 12,2020, Elapsed time: 0:00:00
+# Errors: 0, Warnings: 0
+# 
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs="+acc"  testProcessor_tb
+# vsim -t 1ps -L altera_ver -L lpm_ver -L sgate_ver -L altera_mf_ver -L altera_lnsim_ver -L cycloneive_ver -L rtl_work -L work -voptargs=""+acc"" testProcessor_tb 
+# Start time: 21:13:05 on Nov 12,2020
+# Loading work.testProcessor_tb
+# Loading work.skeleton
+# Loading work.frequency_divider_by2
+# Loading work.imem
+# Loading altera_mf_ver.altsyncram
+# Loading work.dmem
+# Loading work.regfile
+# Loading work.processor
+# Loading work.signExtension
+# Loading work.unsignedExtension
+# Loading work.pc
+# Loading work.myDff
+# Loading work.adder32
+# Loading work._16BitAdder
+# Loading work.eightBitAdder
+# Loading work.fourBitAdder
+# Loading work.twoBitAdder
+# Loading work.oneBitAdder
+# Loading work.getInsnType
+# Loading work.alu
+# Loading altera_mf_ver.altsyncram_body
+# Loading altera_mf_ver.ALTERA_DEVICE_FAMILIES
+# Loading altera_mf_ver.ALTERA_MF_MEMORY_INITIALIZATION
+# ** Warning: (vsim-3017) C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/testProcessor_tb.v(8): [TFMPC] - Too few port connections. Expected 18, found 6.
+#    Time: 0 ps  Iteration: 0  Instance: /testProcessor_tb/mysk File: C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/skeleton.v
+# ** Warning: (vsim-3722) C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/testProcessor_tb.v(8): [TFMPC] - Missing connection for port 'ctrl_readRegB'.
+# ** Warning: (vsim-3722) C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/testProcessor_tb.v(8): [TFMPC] - Missing connection for port 'ctrl_writeEnable'.
+# ** Warning: (vsim-3722) C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/testProcessor_tb.v(8): [TFMPC] - Missing connection for port 'Imme'.
+# ** Warning: (vsim-3722) C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/testProcessor_tb.v(8): [TFMPC] - Missing connection for port 'alu_out'.
+# ** Warning: (vsim-3722) C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/testProcessor_tb.v(8): [TFMPC] - Missing connection for port 'alu_A'.
+# ** Warning: (vsim-3722) C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/testProcessor_tb.v(8): [TFMPC] - Missing connection for port 'alu_B'.
+# ** Warning: (vsim-3722) C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/testProcessor_tb.v(8): [TFMPC] - Missing connection for port 'q_dmem'.
+# ** Warning: (vsim-3722) C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/testProcessor_tb.v(8): [TFMPC] - Missing connection for port 'wren'.
+# ** Warning: (vsim-3722) C:/Users/wg83/Desktop/ECE 550/processor 3_1112_testManycases/testProcessor_tb.v(8): [TFMPC] - Missing connection for port 'address_dmem'.
+# 
+# add wave *
+# ** Warning: (vsim-WLF-5000) WLF file currently in use: vsim.wlf
+# 
+#           File in use by: wg83  Hostname: DKU-VCM-932  ProcessID: 8536
+# 
+#           Attempting to use alternate WLF file "./wlft1d1j74".
+# ** Warning: (vsim-WLF-5001) Could not open WLF file: vsim.wlf
+# 
+#           Using alternate file: ./wlft1d1j74
+# 
+# view structure
+# .main_pane.structure.interior.cs.body.struct
+# view signals
+# .main_pane.objects.interior.cs.body.tree
+# run -all
+#                    0 Simulation starts
+# Break key hit
+# Simulation stop requested.
+# End time: 21:13:39 on Nov 12,2020, Elapsed time: 0:00:34
+# Errors: 0, Warnings: 12
